@@ -32,15 +32,15 @@ public class Uni4Exe25 {
             break;
 
             case 4:
-             if (num1 || num2 == 0){
-                system.out.println("Numero invalido.")
+             if (num2 == 0){
+                System.out.println("Numero invalido.");
                 return;
              }else{
                 resultado = num1 / num2;
              } 
             break;
         }
-        system.out.println(resultado);
+        System.out.println(resultado);
 
     }
 }

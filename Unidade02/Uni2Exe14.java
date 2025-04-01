@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ContagemCedulas {
+public class Uni2Exe14 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

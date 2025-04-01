@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NotasMoedas {
+public class Uni2Exe15 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CustoAzulejos {
+public class Uni2Exe18 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -1,22 +1,25 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
 public class Uni4Exe24 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
-        
+
+        // Entrada de dados
         System.out.print("Digite o primeiro valor: ");
         int a = scanner.nextInt();
         System.out.print("Digite o segundo valor: ");
         int b = scanner.nextInt();
         System.out.print("Digite o terceiro valor: ");
         int c = scanner.nextInt();
-        
-       
+
+        // Escolha da opção
         System.out.println("Escolha uma opção:");
         System.out.println("1 - Ordem crescente");
         System.out.println("2 - Ordem decrescente");
         System.out.println("3 - Maior valor no meio");
         int opcao = scanner.nextInt();
-        
+
         switch (opcao) {
             case 1:
                 int[] crescente = {a, b, c};
@@ -37,8 +40,7 @@ public class Uni4Exe24 {
             default:
                 System.out.println("Opção inválida!");
         }
-        
+
         scanner.close();
     }
-    
 }

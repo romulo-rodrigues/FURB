@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SalarioFuncionario {
+public class Uni2Exe16 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
